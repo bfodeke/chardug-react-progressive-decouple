@@ -1,0 +1,6 @@
+name: Chardug
+type: theme
+description: Chardug subtheme of classy
+core: 8.x
+# Defines the base theme
+base theme: bartik

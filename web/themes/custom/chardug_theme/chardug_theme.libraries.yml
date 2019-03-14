@@ -1,0 +1,5 @@
+chardug_react:
+  js:
+    src/react_components/dist/chardug.js: {}
+  dependencies:
+    - core/drupalSettings
