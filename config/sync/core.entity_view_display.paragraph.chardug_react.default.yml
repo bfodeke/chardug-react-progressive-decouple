@@ -1,0 +1,22 @@
+uuid: c7fe27e3-371d-4db2-9854-c3848757cc83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chardug_react.field_title
+    - paragraphs.paragraphs_type.chardug_react
+  module:
+    - text
+id: paragraph.chardug_react.default
+targetEntityType: paragraph
+bundle: chardug_react
+mode: default
+content:
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

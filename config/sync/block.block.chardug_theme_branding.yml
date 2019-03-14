@@ -1,0 +1,25 @@
+uuid: d6453aa2-4810-4642-a06e-402256fa0231
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chardug_theme
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: chardug_theme_branding
+theme: chardug_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

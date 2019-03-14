@@ -1,0 +1,22 @@
+uuid: 5efba441-3ecf-4c08-8aca-51a350de6858
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - chardug_theme
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: chardug_theme_login
+theme: chardug_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

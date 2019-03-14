@@ -1,0 +1,22 @@
+uuid: 6c478005-8707-4b1c-993e-30614887b20a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chardug_theme
+_core:
+  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+id: chardug_theme_messages
+theme: chardug_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

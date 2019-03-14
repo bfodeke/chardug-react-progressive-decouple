@@ -1,0 +1,20 @@
+uuid: 4b5a4240-459f-449a-a52d-c28df35beee7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - chardug_theme
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: chardug_theme_local_actions
+theme: chardug_theme
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

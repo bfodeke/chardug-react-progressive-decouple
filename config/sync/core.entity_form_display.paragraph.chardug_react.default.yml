@@ -1,0 +1,26 @@
+uuid: 31c8c594-7532-474d-80a9-8355f9ffabb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chardug_react.field_title
+    - paragraphs.paragraphs_type.chardug_react
+  module:
+    - text
+id: paragraph.chardug_react.default
+targetEntityType: paragraph
+bundle: chardug_react
+mode: default
+content:
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

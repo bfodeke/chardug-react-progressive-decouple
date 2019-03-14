@@ -1,0 +1,9 @@
+uuid: bf2af852-5d3f-44a0-8de3-36f45f4253ad
+langcode: en
+status: true
+dependencies: {  }
+id: chardug_react
+label: 'Chardug React'
+icon_uuid: null
+description: 'Chardug React App'
+behavior_plugins: {  }
